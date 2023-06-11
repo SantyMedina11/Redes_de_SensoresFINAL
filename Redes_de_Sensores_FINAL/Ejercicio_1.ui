@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Ejercicio_1</class>
+ <widget class="QMainWindow" name="Ejercicio_1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>0</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; font-style:italic;&quot;&gt;INTERFAZ EJERCICIO_1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="S_Proximidad">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>440</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(16, 255, 248);
+font: 11pt &quot;Gill Sans Ultra Bold Condensed&quot;;</string>
+    </property>
+    <property name="text">
+     <string>S_Proximidad</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="S_Velocidad">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>440</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 169, 64);
+font: 11pt &quot;Gill Sans Ultra Bold Condensed&quot;;</string>
+    </property>
+    <property name="text">
+     <string>S_Velocidad</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="S_Peso">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>440</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(154, 255, 110);
+font: 11pt &quot;Gill Sans Ultra Bold Condensed&quot;;</string>
+    </property>
+    <property name="text">
+     <string>S_Peso</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="S_Temperatura">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>440</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 69, 52);
+font: 10pt &quot;Gill Sans Ultra Bold Condensed&quot;;</string>
+    </property>
+    <property name="text">
+     <string>S_Temperatura</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Comparacion">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>500</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(248, 248, 248);
+font: 11pt &quot;Gill Sans Ultra Bold Condensed&quot;;</string>
+    </property>
+    <property name="text">
+     <string>COMPARACION</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="Tabla">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>230</y>
+      <width>421</width>
+      <height>201</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>40</y>
+      <width>361</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="IMAGES_RC.qrc">:/Tratamiento_Imagenes/Imagenes/Img_12.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="LED">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>50</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 0, 0);
+font: 16pt &quot;Gill Sans Ultra Bold Condensed&quot;;</string>
+    </property>
+    <property name="text">
+     <string>LED</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="XBee">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>120</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(6, 6, 255);
+font: 16pt &quot;Gill Sans Ultra Bold Condensed&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>XBee</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuARCHIVO">
+    <property name="title">
+     <string>ARCHIVO</string>
+    </property>
+    <addaction name="actionLLAMADA"/>
+    <addaction name="actionWHATSAPP"/>
+    <addaction name="actionCORREO"/>
+   </widget>
+   <widget class="QMenu" name="menuOPCIONES">
+    <property name="title">
+     <string>OPCIONES</string>
+    </property>
+    <addaction name="actionGRAFICO"/>
+    <addaction name="actionGRAFICO_2"/>
+    <addaction name="actionBUSCAR"/>
+    <addaction name="actionUBICACION"/>
+    <addaction name="actionVISUALIZAR"/>
+    <addaction name="actionCONTROL"/>
+   </widget>
+   <addaction name="menuARCHIVO"/>
+   <addaction name="menuOPCIONES"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionGRAFICO">
+   <property name="icon">
+    <iconset resource="IMAGES_RC.qrc">
+     <normaloff>:/Tratamiento_Imagenes/Imagenes/icon_8.png</normaloff>:/Tratamiento_Imagenes/Imagenes/icon_8.png</iconset>
+   </property>
+   <property name="text">
+    <string>GRAFICO 1</string>
+   </property>
+  </action>
+  <action name="actionGRAFICO_2">
+   <property name="icon">
+    <iconset resource="IMAGES_RC.qrc">
+     <normaloff>:/Tratamiento_Imagenes/Imagenes/icon_8.png</normaloff>:/Tratamiento_Imagenes/Imagenes/icon_8.png</iconset>
+   </property>
+   <property name="text">
+    <string>GRAFICO 2</string>
+   </property>
+  </action>
+  <action name="actionLLAMADA">
+   <property name="icon">
+    <iconset resource="IMAGES_RC.qrc">
+     <normaloff>:/Tratamiento_Imagenes/Imagenes/icon_4.png</normaloff>:/Tratamiento_Imagenes/Imagenes/icon_4.png</iconset>
+   </property>
+   <property name="text">
+    <string>LLAMADA</string>
+   </property>
+  </action>
+  <action name="actionWHATSAPP">
+   <property name="icon">
+    <iconset resource="IMAGES_RC.qrc">
+     <normaloff>:/Tratamiento_Imagenes/Imagenes/icon_7.png</normaloff>:/Tratamiento_Imagenes/Imagenes/icon_7.png</iconset>
+   </property>
+   <property name="text">
+    <string>WHATSAPP</string>
+   </property>
+  </action>
+  <action name="actionBUSCAR">
+   <property name="icon">
+    <iconset resource="IMAGES_RC.qrc">
+     <normaloff>:/Tratamiento_Imagenes/Imagenes/icon_5.png</normaloff>:/Tratamiento_Imagenes/Imagenes/icon_5.png</iconset>
+   </property>
+   <property name="text">
+    <string>BUSCAR</string>
+   </property>
+  </action>
+  <action name="actionUBICACION">
+   <property name="icon">
+    <iconset resource="IMAGES_RC.qrc">
+     <normaloff>:/Tratamiento_Imagenes/Imagenes/icon_2.png</normaloff>:/Tratamiento_Imagenes/Imagenes/icon_2.png</iconset>
+   </property>
+   <property name="text">
+    <string>UBICACION</string>
+   </property>
+  </action>
+  <action name="actionCORREO">
+   <property name="icon">
+    <iconset resource="IMAGES_RC.qrc">
+     <normaloff>:/Tratamiento_Imagenes/Imagenes/icon_9.png</normaloff>:/Tratamiento_Imagenes/Imagenes/icon_9.png</iconset>
+   </property>
+   <property name="text">
+    <string>CORREO</string>
+   </property>
+  </action>
+  <action name="actionVISUALIZAR">
+   <property name="icon">
+    <iconset resource="IMAGES_RC.qrc">
+     <normaloff>:/Tratamiento_Imagenes/Imagenes/icon_6.png</normaloff>:/Tratamiento_Imagenes/Imagenes/icon_6.png</iconset>
+   </property>
+   <property name="text">
+    <string>VISUALIZAR</string>
+   </property>
+  </action>
+  <action name="actionCONTROL">
+   <property name="icon">
+    <iconset resource="IMAGES_RC.qrc">
+     <normaloff>:/Tratamiento_Imagenes/Imagenes/icon_10.png</normaloff>:/Tratamiento_Imagenes/Imagenes/icon_10.png</iconset>
+   </property>
+   <property name="text">
+    <string>CONTROL</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="IMAGES_RC.qrc"/>
+  <include location="IMAGES_RC.qrc"/>
+ </resources>
+ <connections/>
+</ui>
